@@ -1,6 +1,6 @@
 package com.sm.jeesns.common.service.impl;
 
-import com.sm.jeesns.common.dao.ICommonDao;
+import com.sm.jeesns.dao.common.ICommonDao;
 import com.sm.jeesns.common.service.ICommonService;
 import org.springframework.stereotype.Service;
 

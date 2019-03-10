@@ -1,7 +1,7 @@
 package com.sm.jeesns.system.service.impl;
 
 import com.sm.jeesns.core.dto.ResultModel;
-import com.sm.jeesns.system.dao.IScoreRuleDao;
+import com.sm.jeesns.dao.system.IScoreRuleDao;
 import com.sm.jeesns.system.model.ScoreRule;
 import com.sm.jeesns.system.service.IScoreRuleService;
 import org.springframework.stereotype.Service;

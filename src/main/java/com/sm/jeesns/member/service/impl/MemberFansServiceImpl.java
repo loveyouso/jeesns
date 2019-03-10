@@ -2,7 +2,7 @@ package com.sm.jeesns.member.service.impl;
 
 import com.sm.jeesns.core.dto.ResultModel;
 import com.sm.jeesns.core.model.Page;
-import com.sm.jeesns.member.dao.IMemberFansDao;
+import com.sm.jeesns.dao.member.IMemberFansDao;
 import com.sm.jeesns.member.model.MemberFans;
 import com.sm.jeesns.member.service.IMemberFansService;
 import org.springframework.stereotype.Service;

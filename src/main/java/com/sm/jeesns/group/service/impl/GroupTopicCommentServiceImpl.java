@@ -7,7 +7,7 @@ import com.sm.jeesns.core.dto.ResultModel;
 import com.sm.jeesns.core.enums.MessageType;
 import com.sm.jeesns.core.model.Page;
 import com.sm.jeesns.core.utils.StringUtils;
-import com.sm.jeesns.group.dao.IGroupTopicCommentDao;
+import com.sm.jeesns.dao.group.IGroupTopicCommentDao;
 import com.sm.jeesns.group.model.GroupTopic;
 import com.sm.jeesns.group.model.GroupTopicComment;
 import com.sm.jeesns.group.service.IGroupTopicCommentService;

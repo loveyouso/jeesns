@@ -1,6 +1,6 @@
 package com.sm.jeesns.weibo.service.impl;
 
-import com.sm.jeesns.weibo.dao.IWeiboFavorDao;
+import com.sm.jeesns.dao.weibo.IWeiboFavorDao;
 import com.sm.jeesns.weibo.model.WeiboFavor;
 import com.sm.jeesns.weibo.service.IWeiboFavorService;
 import org.springframework.stereotype.Service;

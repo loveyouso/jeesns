@@ -1,7 +1,7 @@
 package com.sm.jeesns.system.service.impl;
 
 import com.sm.jeesns.core.exception.OpeErrorException;
-import com.sm.jeesns.system.dao.IActionDao;
+import com.sm.jeesns.dao.system.IActionDao;
 import com.sm.jeesns.system.model.Action;
 import com.sm.jeesns.system.service.IActionService;
 import org.springframework.stereotype.Service;

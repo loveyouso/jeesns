@@ -17,6 +17,8 @@ public class MessageField {
     public static final String TOKEN = "token";
     public static final String LOGIN_INFO_WRONG = "login_info_wrong";
     public static final String UN_LOGIN = "un_login";
+    public static final String ARTICLE = "article";
+    public static final String WEIBO = "weibo";
     public static final String ACCOUNT_IS_DISABLED = "account_is_disabled";
     public static final String EXISTS = "exists";
     public static final String USERNAME_LENGTH_ONLY_BE = "username_length_only_be";

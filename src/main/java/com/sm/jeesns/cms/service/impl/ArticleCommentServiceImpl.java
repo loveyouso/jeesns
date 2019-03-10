@@ -1,6 +1,6 @@
 package com.sm.jeesns.cms.service.impl;
 
-import com.sm.jeesns.cms.dao.IArticleCommentDao;
+import com.sm.jeesns.dao.cms.IArticleCommentDao;
 import com.sm.jeesns.cms.model.Article;
 import com.sm.jeesns.cms.model.ArticleComment;
 import com.sm.jeesns.cms.service.IArticleCommentService;
@@ -79,6 +79,11 @@ public class ArticleCommentServiceImpl implements IArticleCommentService {
         ResultModel model = new ResultModel(0,page);
         model.setData(list);
         return model;
+    }
+
+    @Override
+    public List<ArticleComment> listByPage(Page page, int articleId, String key) {
+        return null;
     }
 
     @Override

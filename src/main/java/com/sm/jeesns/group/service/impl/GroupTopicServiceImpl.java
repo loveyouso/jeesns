@@ -13,7 +13,7 @@ import com.sm.jeesns.core.exception.ParamException;
 import com.sm.jeesns.core.model.Page;
 import com.sm.jeesns.core.utils.Const;
 import com.sm.jeesns.core.utils.StringUtils;
-import com.sm.jeesns.group.dao.IGroupTopicDao;
+import com.sm.jeesns.dao.group.IGroupTopicDao;
 import com.sm.jeesns.group.model.Group;
 import com.sm.jeesns.group.model.GroupTopic;
 import com.sm.jeesns.group.service.IGroupFansService;

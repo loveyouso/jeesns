@@ -28,8 +28,10 @@ public enum Messages {
     //不存在
     NOT_EXISTS(-1007, MessageField.NOT_EXISTS),
     ADMIN_NOT_EXISTS(-1002, MessageField.ADMIN_NOT_EXISTS),
+    WEIBO_NOT_EXISTS(-1002, MessageField.NOT_EXISTS, Messages(MessageField.WEIBO)),
     USER_NOT_EXISTS(-1002, MessageField.USER_NOT_EXISTS),
     GOODS_CATEGORY_NOT_EXISTS(-1002, MessageField.GOODS_CATEGORY_NOT_EXISTS),
+    ARTICLE_NOT_EXISTS(-1002, MessageField.NOT_EXISTS, Messages(MessageField.ARTICLE)),
     GOODS_NOT_EXISTS(-1002, MessageField.GOODS_NOT_EXISTS),
     AD_NOT_EXISTS(-1002, MessageField.AD_NOT_EXISTS),
     PARENT_CATE_NOT_EXISTS(-1002, MessageField.PARENT_CATE_NOT_EXISTS),

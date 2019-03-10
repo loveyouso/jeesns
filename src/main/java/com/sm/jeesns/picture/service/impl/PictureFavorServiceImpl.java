@@ -1,6 +1,6 @@
 package com.sm.jeesns.picture.service.impl;
 
-import com.sm.jeesns.picture.dao.IPictureFavorDao;
+import com.sm.jeesns.dao.picture.IPictureFavorDao;
 import com.sm.jeesns.picture.model.PictureFavor;
 import com.sm.jeesns.picture.service.IPictureFavorService;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.sm.jeesns.group.service.impl;
 
 import com.sm.jeesns.core.dto.ResultModel;
-import com.sm.jeesns.group.dao.IGroupTopicTypeDao;
+import com.sm.jeesns.dao.group.IGroupTopicTypeDao;
 import com.sm.jeesns.group.model.GroupTopicType;
 import com.sm.jeesns.group.service.IGroupTopicTypeService;
 import com.sm.jeesns.member.model.Member;

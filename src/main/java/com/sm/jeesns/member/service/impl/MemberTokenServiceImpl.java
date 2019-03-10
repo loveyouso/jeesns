@@ -1,6 +1,6 @@
 package com.sm.jeesns.member.service.impl;
 
-import com.sm.jeesns.member.dao.IMemberTokenDao;
+import com.sm.jeesns.dao.member.IMemberTokenDao;
 import com.sm.jeesns.member.model.MemberToken;
 import com.sm.jeesns.member.service.IMemberTokenService;
 import org.springframework.stereotype.Service;

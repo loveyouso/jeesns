@@ -4,7 +4,7 @@ import com.sm.jeesns.core.dto.ResultModel;
 import com.sm.jeesns.core.enums.MessageType;
 import com.sm.jeesns.core.model.Page;
 import com.sm.jeesns.core.utils.AtUtil;
-import com.sm.jeesns.member.dao.IMessageDao;
+import com.sm.jeesns.dao.member.IMessageDao;
 import com.sm.jeesns.member.model.Member;
 import com.sm.jeesns.member.model.Message;
 import com.sm.jeesns.member.service.IMemberService;

@@ -1,7 +1,7 @@
 package com.sm.jeesns.group.service.impl;
 
 import com.sm.jeesns.core.exception.OpeErrorException;
-import com.sm.jeesns.group.dao.IGroupTypeDao;
+import com.sm.jeesns.dao.group.IGroupTypeDao;
 import com.sm.jeesns.group.model.GroupType;
 import com.sm.jeesns.group.service.IGroupTypeService;
 import org.springframework.stereotype.Service;

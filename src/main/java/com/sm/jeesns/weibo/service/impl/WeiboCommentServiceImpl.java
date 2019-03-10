@@ -12,7 +12,7 @@ import com.sm.jeesns.member.service.IMemberService;
 import com.sm.jeesns.member.service.IMessageService;
 import com.sm.jeesns.member.service.IScoreDetailService;
 import com.sm.jeesns.system.service.IActionLogService;
-import com.sm.jeesns.weibo.dao.IWeiboCommentDao;
+import com.sm.jeesns.dao.weibo.IWeiboCommentDao;
 import com.sm.jeesns.weibo.model.Weibo;
 import com.sm.jeesns.weibo.model.WeiboComment;
 import com.sm.jeesns.weibo.service.IWeiboCommentService;

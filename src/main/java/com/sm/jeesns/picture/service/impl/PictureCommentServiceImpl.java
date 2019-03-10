@@ -7,7 +7,7 @@ import com.sm.jeesns.core.model.Page;
 import com.sm.jeesns.member.model.Member;
 import com.sm.jeesns.member.service.IMemberService;
 import com.sm.jeesns.member.service.IMessageService;
-import com.sm.jeesns.picture.dao.IPictureCommentDao;
+import com.sm.jeesns.dao.picture.IPictureCommentDao;
 import com.sm.jeesns.picture.model.Picture;
 import com.sm.jeesns.picture.model.PictureComment;
 import com.sm.jeesns.picture.service.IPictureCommentService;

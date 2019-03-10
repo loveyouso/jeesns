@@ -2,7 +2,7 @@ package com.sm.jeesns.group.service.impl;
 
 import com.sm.jeesns.core.dto.ResultModel;
 import com.sm.jeesns.core.model.Page;
-import com.sm.jeesns.group.dao.IGroupFansDao;
+import com.sm.jeesns.dao.group.IGroupFansDao;
 import com.sm.jeesns.group.model.Group;
 import com.sm.jeesns.group.model.GroupFans;
 import com.sm.jeesns.group.service.IGroupFansService;

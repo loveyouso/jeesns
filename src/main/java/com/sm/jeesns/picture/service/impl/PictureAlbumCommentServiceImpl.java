@@ -4,7 +4,7 @@ import com.sm.jeesns.core.dto.ResultModel;
 import com.sm.jeesns.core.model.Page;
 import com.sm.jeesns.member.model.Member;
 import com.sm.jeesns.member.service.IMemberService;
-import com.sm.jeesns.picture.dao.IPictureAlbumCommentDao;
+import com.sm.jeesns.dao.picture.IPictureAlbumCommentDao;
 import com.sm.jeesns.picture.model.PictureAlbum;
 import com.sm.jeesns.picture.model.PictureAlbumComment;
 import com.sm.jeesns.picture.service.IPictureAlbumCommentService;

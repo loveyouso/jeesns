@@ -10,21 +10,25 @@ import com.sm.jeesns.core.enums.MessageType;
 import com.sm.jeesns.core.exception.NotLoginException;
 import com.sm.jeesns.core.model.Page;
 import com.sm.jeesns.core.utils.StringUtils;
+import com.sm.jeesns.core.utils.WeiboTopicUtil;
 import com.sm.jeesns.member.model.Member;
 import com.sm.jeesns.member.service.IMemberService;
 import com.sm.jeesns.member.service.IMessageService;
 import com.sm.jeesns.member.service.IScoreDetailService;
 import com.sm.jeesns.picture.service.IPictureService;
 import com.sm.jeesns.system.service.IActionLogService;
-import com.sm.jeesns.weibo.dao.IWeiboDao;
+import com.sm.jeesns.dao.weibo.IWeiboDao;
 import com.sm.jeesns.weibo.model.Weibo;
+import com.sm.jeesns.weibo.model.WeiboTopic;
 import com.sm.jeesns.weibo.service.IWeiboFavorService;
 import com.sm.jeesns.weibo.service.IWeiboService;
+import com.sm.jeesns.weibo.service.IWeiboTopicService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -46,6 +50,8 @@ public class WeiboServiceImpl implements IWeiboService {
     private IMessageService messageService;
     @Resource
     private IMemberService memberService;
+    @Resource
+    private IWeiboTopicService weiboTopicService;
 
     @Override
     public Weibo findById(int id, int memberId) {
@@ -176,6 +182,24 @@ public class WeiboServiceImpl implements IWeiboService {
         return weiboDao.listByCustom(loginMemberId,sort,num,day);
     }
 
+    @Override
+    public ResultModel<Weibo> listByTopic(Page page, int loginMemberId, String topicName) {
+        WeiboTopic weiboTopic = weiboTopicService.findByName(topicName);
+        List<Weibo> list;
+        if (weiboTopic == null){
+            weiboTopic = new WeiboTopic();
+            weiboTopic.setName(topicName);
+            weiboTopicService.save(weiboTopic);
+            list = new ArrayList<>();
+        }else {
+            list = weiboDao.listByTopic(page, loginMemberId, weiboTopic.getId());
+            list = this.formatWeibo(list);
+        }
+        ResultModel model = new ResultModel(0,page);
+        model.setData(list);
+        return model;
+    }
+
     public Weibo atFormat(Weibo weibo){
         weibo.setContent(memberService.atFormat(weibo.getContent()));
         return weibo;
@@ -184,6 +208,19 @@ public class WeiboServiceImpl implements IWeiboService {
     public List<Weibo> atFormat(List<Weibo> weiboList){
         for (Weibo weibo : weiboList){
             atFormat(weibo);
+        }
+        return weiboList;
+    }
+
+    public Weibo formatWeibo(Weibo weibo){
+        weibo.setContent(memberService.atFormat(weibo.getContent()));
+        weibo.setContent(WeiboTopicUtil.formatTopic(weibo.getContent()));
+        return weibo;
+    }
+
+    public List<Weibo> formatWeibo(List<Weibo> weiboList){
+        for (Weibo weibo : weiboList){
+            formatWeibo(weibo);
         }
         return weiboList;
     }

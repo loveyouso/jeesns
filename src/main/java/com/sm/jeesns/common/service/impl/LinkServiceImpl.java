@@ -1,6 +1,6 @@
 package com.sm.jeesns.common.service.impl;
 
-import com.sm.jeesns.common.dao.ILinkDao;
+import com.sm.jeesns.dao.common.ILinkDao;
 import com.sm.jeesns.common.model.Link;
 import com.sm.jeesns.common.service.ILinkService;
 import com.sm.jeesns.core.dto.ResultModel;

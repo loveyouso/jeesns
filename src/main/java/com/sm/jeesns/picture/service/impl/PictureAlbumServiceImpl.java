@@ -4,7 +4,7 @@ import com.sm.jeesns.core.dto.ResultModel;
 import com.sm.jeesns.core.model.Page;
 import com.sm.jeesns.core.utils.Const;
 import com.sm.jeesns.core.utils.StringUtils;
-import com.sm.jeesns.picture.dao.IPictureAlbumDao;
+import com.sm.jeesns.dao.picture.IPictureAlbumDao;
 import com.sm.jeesns.picture.model.PictureAlbum;
 import com.sm.jeesns.picture.service.IPictureAlbumService;
 import org.springframework.stereotype.Service;

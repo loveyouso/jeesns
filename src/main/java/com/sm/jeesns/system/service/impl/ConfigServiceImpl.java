@@ -1,7 +1,7 @@
 package com.sm.jeesns.system.service.impl;
 
 import com.sm.jeesns.core.dto.ResultModel;
-import com.sm.jeesns.system.dao.IConfigDao;
+import com.sm.jeesns.dao.system.IConfigDao;
 import com.sm.jeesns.system.model.Config;
 import com.sm.jeesns.system.service.IConfigService;
 import org.springframework.stereotype.Service;

@@ -1,8 +1,8 @@
 package com.sm.jeesns.core.handler;
 
-import com.sm.jeesns.core.utils.StringUtils;
 import freemarker.core.Environment;
 import freemarker.template.*;
+import org.apache.commons.lang.StringUtils;
 
 import java.io.IOException;
 import java.text.ParseException;

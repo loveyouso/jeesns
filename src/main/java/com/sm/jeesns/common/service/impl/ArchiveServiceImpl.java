@@ -1,6 +1,6 @@
 package com.sm.jeesns.common.service.impl;
 
-import com.sm.jeesns.common.dao.IArchiveDao;
+import com.sm.jeesns.dao.common.IArchiveDao;
 import com.sm.jeesns.common.model.Archive;
 import com.sm.jeesns.common.service.IArchiveFavorService;
 import com.sm.jeesns.common.service.IArchiveService;

@@ -2,7 +2,7 @@ package com.sm.jeesns.system.service.impl;
 
 import com.sm.jeesns.core.dto.ResultModel;
 import com.sm.jeesns.core.model.Page;
-import com.sm.jeesns.system.dao.IActionLogDao;
+import com.sm.jeesns.dao.system.IActionLogDao;
 import com.sm.jeesns.system.model.Action;
 import com.sm.jeesns.system.model.ActionLog;
 import com.sm.jeesns.system.service.IActionLogService;

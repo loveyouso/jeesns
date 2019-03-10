@@ -1,6 +1,6 @@
 package com.sm.jeesns.common.service.impl;
 
-import com.sm.jeesns.common.dao.IArchiveFavorDao;
+import com.sm.jeesns.dao.common.IArchiveFavorDao;
 import com.sm.jeesns.common.model.ArchiveFavor;
 import com.sm.jeesns.common.service.IArchiveFavorService;
 import org.springframework.stereotype.Service;

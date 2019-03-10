@@ -2,7 +2,7 @@ package com.sm.jeesns.system.service.impl;
 
 import com.sm.jeesns.core.dto.ResultModel;
 import com.sm.jeesns.core.model.Page;
-import com.sm.jeesns.system.dao.ITagDao;
+import com.sm.jeesns.dao.system.ITagDao;
 import com.sm.jeesns.system.model.Tag;
 import com.sm.jeesns.system.service.ITagService;
 import org.springframework.stereotype.Service;

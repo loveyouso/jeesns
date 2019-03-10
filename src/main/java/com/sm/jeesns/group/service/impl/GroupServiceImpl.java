@@ -6,7 +6,7 @@ import com.sm.jeesns.common.utils.ScoreRuleConsts;
 import com.sm.jeesns.core.dto.ResultModel;
 import com.sm.jeesns.core.utils.Const;
 import com.sm.jeesns.core.utils.StringUtils;
-import com.sm.jeesns.group.dao.IGroupDao;
+import com.sm.jeesns.dao.group.IGroupDao;
 import com.sm.jeesns.group.model.Group;
 import com.sm.jeesns.group.service.IGroupFansService;
 import com.sm.jeesns.group.service.IGroupService;

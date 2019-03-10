@@ -1,6 +1,6 @@
 package com.sm.jeesns.member.service.impl;
 
-import com.sm.jeesns.member.dao.IValidateCodeDao;
+import com.sm.jeesns.dao.member.IValidateCodeDao;
 import com.sm.jeesns.member.model.ValidateCode;
 import com.sm.jeesns.member.service.IValidateCodeService;
 import org.springframework.stereotype.Service;

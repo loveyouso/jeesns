@@ -1,6 +1,6 @@
 package com.sm.jeesns.common.service.impl;
 
-import com.sm.jeesns.common.dao.IAdsDao;
+import com.sm.jeesns.dao.common.IAdsDao;
 import com.sm.jeesns.common.model.Ads;
 import com.sm.jeesns.common.service.IAdsService;
 import com.sm.jeesns.core.dto.ResultModel;

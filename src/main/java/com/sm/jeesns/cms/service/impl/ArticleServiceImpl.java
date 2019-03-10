@@ -1,6 +1,6 @@
 package com.sm.jeesns.cms.service.impl;
 
-import com.sm.jeesns.cms.dao.IArticleDao;
+import com.sm.jeesns.dao.cms.IArticleDao;
 import com.sm.jeesns.cms.model.Article;
 import com.sm.jeesns.cms.service.IArticleCommentService;
 import com.sm.jeesns.cms.service.IArticleService;

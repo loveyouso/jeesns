@@ -1,7 +1,7 @@
 package com.sm.jeesns.cms.service.impl;
 
-import com.sm.jeesns.cms.dao.IArticleCateDao;
-import com.sm.jeesns.cms.dao.IArticleDao;
+import com.sm.jeesns.dao.cms.IArticleCateDao;
+import com.sm.jeesns.dao.cms.IArticleDao;
 import com.sm.jeesns.cms.model.ArticleCate;
 import com.sm.jeesns.cms.service.IArticleCateService;
 import com.sm.jeesns.core.enums.Messages;

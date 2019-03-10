@@ -5,6 +5,8 @@ import com.sm.jeesns.core.dto.ResultModel;
 import com.sm.jeesns.core.model.Page;
 import com.sm.jeesns.member.model.Member;
 
+import java.util.List;
+
 
 /**
  * Created by zchuanzhao on 2016/10/14.
@@ -18,6 +20,8 @@ public interface IArticleCommentService {
     ResultModel delete(Member loginMember, int id);
 
     ResultModel listByArticle(Page page, int articleId);
+
+    List<ArticleComment> listByPage(Page page, int articleId, String key);
 
     void deleteByArticle(Integer articleId);
 }

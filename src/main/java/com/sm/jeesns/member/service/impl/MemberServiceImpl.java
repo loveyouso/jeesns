@@ -7,7 +7,7 @@ import com.sm.jeesns.core.exception.NotLoginException;
 import com.sm.jeesns.core.exception.OpeErrorException;
 import com.sm.jeesns.core.model.Page;
 import com.sm.jeesns.core.utils.*;
-import com.sm.jeesns.member.dao.IMemberDao;
+import com.sm.jeesns.dao.member.IMemberDao;
 import com.sm.jeesns.member.model.Member;
 import com.sm.jeesns.member.model.ValidateCode;
 import com.sm.jeesns.member.service.IMemberFansService;
