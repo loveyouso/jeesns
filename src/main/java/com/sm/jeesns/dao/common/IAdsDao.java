@@ -1,6 +1,6 @@
 package com.sm.jeesns.dao.common;
 
-import com.sm.jeesns.common.model.Ads;
+import com.sm.jeesns.model.common.Ads;
 import com.sm.jeesns.core.model.Page;
 import org.apache.ibatis.annotations.Param;
 

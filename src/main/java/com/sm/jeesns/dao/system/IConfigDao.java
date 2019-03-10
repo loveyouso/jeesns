@@ -1,7 +1,7 @@
 package com.sm.jeesns.dao.system;
 
 import com.sm.jeesns.dao.common.IBaseDao;
-import com.sm.jeesns.system.model.Config;
+import com.sm.jeesns.model.system.Config;
 import org.apache.ibatis.annotations.Param;
 
 /**

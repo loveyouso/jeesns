@@ -1,6 +1,6 @@
 package com.sm.jeesns.dao.cms;
 
-import com.sm.jeesns.cms.model.ArticleCate;
+import com.sm.jeesns.model.cms.ArticleCate;
 import com.sm.jeesns.dao.common.IBaseDao;
 import org.apache.ibatis.annotations.Param;
 

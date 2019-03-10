@@ -1,7 +1,7 @@
 package com.sm.jeesns.dao.member;
 
 import com.sm.jeesns.dao.common.IBaseDao;
-import com.sm.jeesns.member.model.MemberToken;
+import com.sm.jeesns.model.member.MemberToken;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.Date;

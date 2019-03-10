@@ -1,6 +1,6 @@
 package com.sm.jeesns.dao.common;
 
-import com.sm.jeesns.common.model.Archive;
+import com.sm.jeesns.model.common.Archive;
 import org.apache.ibatis.annotations.Param;
 
 /**

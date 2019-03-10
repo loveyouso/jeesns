@@ -2,7 +2,7 @@ package com.sm.jeesns.dao.group;
 
 import com.sm.jeesns.dao.common.IBaseDao;
 import com.sm.jeesns.core.model.Page;
-import com.sm.jeesns.group.model.GroupTopic;
+import com.sm.jeesns.model.group.GroupTopic;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

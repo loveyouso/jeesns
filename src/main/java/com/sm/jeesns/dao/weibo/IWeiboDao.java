@@ -2,7 +2,7 @@ package com.sm.jeesns.dao.weibo;
 
 import com.sm.jeesns.dao.common.IBaseDao;
 import com.sm.jeesns.core.model.Page;
-import com.sm.jeesns.weibo.model.Weibo;
+import com.sm.jeesns.model.weibo.Weibo;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

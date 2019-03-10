@@ -1,7 +1,7 @@
 package com.sm.jeesns.dao.weibo;
 
 import com.sm.jeesns.dao.common.IBaseDao;
-import com.sm.jeesns.weibo.model.WeiboFavor;
+import com.sm.jeesns.model.weibo.WeiboFavor;
 import org.apache.ibatis.annotations.Param;
 
 /**

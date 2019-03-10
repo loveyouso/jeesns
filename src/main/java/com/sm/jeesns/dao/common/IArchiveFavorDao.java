@@ -1,6 +1,6 @@
 package com.sm.jeesns.dao.common;
 
-import com.sm.jeesns.common.model.ArchiveFavor;
+import com.sm.jeesns.model.common.ArchiveFavor;
 import org.apache.ibatis.annotations.Param;
 
 /**

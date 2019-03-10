@@ -1,7 +1,7 @@
 package com.sm.jeesns.dao.member;
 
 import com.sm.jeesns.dao.common.IBaseDao;
-import com.sm.jeesns.member.model.ValidateCode;
+import com.sm.jeesns.model.member.ValidateCode;
 import org.apache.ibatis.annotations.Param;
 
 /**

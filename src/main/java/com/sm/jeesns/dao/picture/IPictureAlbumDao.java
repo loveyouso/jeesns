@@ -2,7 +2,7 @@ package com.sm.jeesns.dao.picture;
 
 import com.sm.jeesns.dao.common.IBaseDao;
 import com.sm.jeesns.core.model.Page;
-import com.sm.jeesns.picture.model.PictureAlbum;
+import com.sm.jeesns.model.picture.PictureAlbum;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

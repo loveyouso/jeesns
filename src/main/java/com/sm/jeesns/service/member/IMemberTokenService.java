@@ -1,0 +1,15 @@
+package com.sm.jeesns.service.member;
+
+
+import com.sm.jeesns.model.member.MemberToken;
+
+/**
+ * Created by zchuanzhao on 2017/7/15.
+ */
+public interface IMemberTokenService {
+
+    MemberToken getByToken(String token);
+
+    void save(Integer memberId, String token);
+
+}

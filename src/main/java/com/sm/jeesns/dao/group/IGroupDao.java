@@ -1,7 +1,7 @@
 package com.sm.jeesns.dao.group;
 
 import com.sm.jeesns.dao.common.IBaseDao;
-import com.sm.jeesns.group.model.Group;
+import com.sm.jeesns.model.group.Group;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

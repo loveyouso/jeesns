@@ -3,7 +3,7 @@ package com.sm.jeesns.core.interceptor;
 import com.sm.jeesns.common.utils.MemberUtil;
 import com.sm.jeesns.core.utils.JeesnsConfig;
 import com.sm.jeesns.core.utils.SpringContextHolderUtil;
-import com.sm.jeesns.member.model.Member;
+import com.sm.jeesns.model.member.Member;
 import net.sf.json.JSONObject;
 
 import javax.servlet.http.HttpServletRequest;

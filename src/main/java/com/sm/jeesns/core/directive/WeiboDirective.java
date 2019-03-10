@@ -3,9 +3,9 @@ package com.sm.jeesns.core.directive;
 
 import com.sm.jeesns.common.utils.MemberUtil;
 import com.sm.jeesns.core.handler.DirectiveHandler;
-import com.sm.jeesns.member.model.Member;
-import com.sm.jeesns.weibo.model.Weibo;
-import com.sm.jeesns.weibo.service.IWeiboService;
+import com.sm.jeesns.model.member.Member;
+import com.sm.jeesns.model.weibo.Weibo;
+import com.sm.jeesns.service.weibo.IWeiboService;
 import freemarker.template.TemplateException;
 import org.springframework.stereotype.Component;
 

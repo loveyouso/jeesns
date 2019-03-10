@@ -2,7 +2,7 @@ package com.sm.jeesns.dao;
 
 import com.sm.jeesns.dao.common.IBaseDao;
 import com.sm.jeesns.core.model.Page;
-import com.sm.jeesns.member.model.Checkin;
+import com.sm.jeesns.model.member.Checkin;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

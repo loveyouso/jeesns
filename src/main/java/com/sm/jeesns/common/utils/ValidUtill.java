@@ -4,7 +4,7 @@ import com.sm.jeesns.core.enums.Messages;
 import com.sm.jeesns.core.exception.NotLoginException;
 import com.sm.jeesns.core.exception.ParamException;
 import com.sm.jeesns.core.utils.StringUtils;
-import com.sm.jeesns.member.model.Member;
+import com.sm.jeesns.model.member.Member;
 
 /**
  * @author zchuanzhao@linewell.com

@@ -2,7 +2,7 @@ package com.sm.jeesns.common.utils;
 
 import com.sm.jeesns.core.utils.Const;
 import com.sm.jeesns.core.utils.StringUtils;
-import com.sm.jeesns.member.model.Member;
+import com.sm.jeesns.model.member.Member;
 
 import javax.servlet.http.HttpServletRequest;
 

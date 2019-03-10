@@ -1,8 +1,8 @@
 package com.sm.jeesns.core.directive;
 
 
-import com.sm.jeesns.common.model.Ads;
-import com.sm.jeesns.common.service.IAdsService;
+import com.sm.jeesns.model.common.Ads;
+import com.sm.jeesns.service.common.IAdsService;
 import com.sm.jeesns.core.handler.DirectiveHandler;
 import freemarker.template.TemplateException;
 import org.springframework.stereotype.Component;

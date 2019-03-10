@@ -1,7 +1,7 @@
 package com.sm.jeesns.core.directive;
 
-import com.sm.jeesns.cms.model.Article;
-import com.sm.jeesns.cms.service.IArticleService;
+import com.sm.jeesns.model.cms.Article;
+import com.sm.jeesns.service.cms.IArticleService;
 import com.sm.jeesns.core.handler.DirectiveHandler;
 import freemarker.template.TemplateException;
 import org.springframework.stereotype.Component;

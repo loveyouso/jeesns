@@ -1,7 +1,7 @@
 package com.sm.jeesns.dao.picture;
 
 import com.sm.jeesns.dao.common.IBaseDao;
-import com.sm.jeesns.picture.model.PictureFavor;
+import com.sm.jeesns.model.picture.PictureFavor;
 import org.apache.ibatis.annotations.Param;
 
 public interface IPictureFavorDao extends IBaseDao<PictureFavor> {

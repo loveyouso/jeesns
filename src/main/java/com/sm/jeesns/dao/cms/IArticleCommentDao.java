@@ -1,7 +1,7 @@
 package com.sm.jeesns.dao.cms;
 
 
-import com.sm.jeesns.cms.model.ArticleComment;
+import com.sm.jeesns.model.cms.ArticleComment;
 import com.sm.jeesns.core.model.Page;
 import com.sm.jeesns.dao.common.IBaseDao;
 import org.apache.ibatis.annotations.Param;

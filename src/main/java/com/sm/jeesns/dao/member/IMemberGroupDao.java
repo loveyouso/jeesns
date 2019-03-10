@@ -2,7 +2,7 @@ package com.sm.jeesns.dao.member;
 
 
 import com.sm.jeesns.dao.common.IBaseDao;
-import com.sm.jeesns.member.model.MemGroup;
+import com.sm.jeesns.model.member.MemGroup;
 
 /**
  * 会员分组DAO

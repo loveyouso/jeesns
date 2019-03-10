@@ -1,7 +1,7 @@
 package com.sm.jeesns.common.utils;
 
 import com.sm.jeesns.core.utils.StringUtils;
-import com.sm.jeesns.picture.model.Picture;
+import com.sm.jeesns.model.picture.Picture;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.File;

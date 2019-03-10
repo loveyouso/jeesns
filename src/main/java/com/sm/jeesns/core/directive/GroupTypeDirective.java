@@ -1,8 +1,8 @@
 package com.sm.jeesns.core.directive;
 
 import com.sm.jeesns.core.handler.DirectiveHandler;
-import com.sm.jeesns.group.model.GroupType;
-import com.sm.jeesns.group.service.IGroupTypeService;
+import com.sm.jeesns.model.group.GroupType;
+import com.sm.jeesns.service.group.IGroupTypeService;
 import freemarker.template.TemplateException;
 import org.springframework.stereotype.Component;
 

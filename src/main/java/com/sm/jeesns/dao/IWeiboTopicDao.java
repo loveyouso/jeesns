@@ -2,7 +2,7 @@ package com.sm.jeesns.dao;
 
 
 import com.sm.jeesns.dao.common.IBaseDao;
-import com.sm.jeesns.weibo.model.WeiboTopic;
+import com.sm.jeesns.model.weibo.WeiboTopic;
 import org.apache.ibatis.annotations.Param;
 
 
