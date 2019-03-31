@@ -1,3 +1,6 @@
+package com.sm.jeesns.controller.manage;
+
+
 import com.sm.jeesns.controller.common.BaseController;
 import com.sm.jeesns.core.annotation.Before;
 import com.sm.jeesns.core.conts.AppTag;

@@ -23,7 +23,7 @@
     <script src="${basePath}/static/res/common/js/extendPagination.js"></script>
 </head>
 <body class="gray-bg">
-<#include "/${frontTemplate}/common/header.ftl"/>
+<#include "/front/common/header.ftl"/>
 <div class="container">
     <div id="banner" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -212,7 +212,7 @@
         </div>
     </div>
 </div>
-<#include "/${frontTemplate}/common/footer.ftl"/>
+<#include "${frontTemplate}/common/footer.ftl"/>
 <script type="text/javascript">
     $(function () {
         $(".pagination").jeesns_page("jeesnsPageForm");

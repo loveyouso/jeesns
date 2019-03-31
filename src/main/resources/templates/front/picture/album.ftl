@@ -25,7 +25,7 @@
     <script src="${basePath}/static/res/common/js/extendPagination.js"></script>
 </head>
 <body class="gray-bg">
-<#include "/${frontTemplate}/common/header.ftl"/>
+<#include "${frontTemplate}/common/header.ftl"/>
 <div class="member-banner" style="background-image: url(${basePath}/res/common/images/member_banner.png);">
     <div class="attempts"></div>
     <div class="container">

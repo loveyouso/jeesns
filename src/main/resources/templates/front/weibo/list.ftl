@@ -8,38 +8,38 @@
     <meta name="keywords" content="${SITE_KEYS}"/>
     <meta name="description" content="${SITE_DESCRIPTION}"/>
     <meta name="author" content="JEESNS"/>
-    <link href="${basePath}/res/common/css/zui.min.css" rel="stylesheet">
-    <link href="${basePath}/res/front/css/app.css" rel="stylesheet">
-    <link href="${basePath}/res/plugins/emoji/css/emoji.css" rel="stylesheet">
-    <link href="${basePath}/res/plugins/webuploader/webuploader.css" rel="stylesheet">
-    <link href="${basePath}/res/plugins/gallery/css/blueimp-gallery.min.css" rel="stylesheet">
+    <link href="${basePath}/static/res/common/css/zui.min.css" rel="stylesheet">
+    <link href="${basePath}/static/res/front/css/app.css" rel="stylesheet">
+    <link href="${basePath}/static/res/plugins/emoji/css/emoji.css" rel="stylesheet">
+    <link href="${basePath}/static/res/plugins/webuploader/webuploader.css" rel="stylesheet">
+    <link href="${basePath}/static/res/plugins/gallery/css/blueimp-gallery.min.css" rel="stylesheet">
     <script type="text/javascript">
         var basePath = "${basePath}";
         var weiboPath = "${weiboPath}";
         var uploadServer = "${basePath}/uploadImage";
     </script>
     <!--[if lt IE 9]>
-    <script src="${basePath}/res/common/js/html5shiv.min.js"></script>
-    <script src="${basePath}/res/common/js/respond.min.js"></script>
+    <script src="${basePath}/static/res/common/js/html5shiv.min.js"></script>
+    <script src="${basePath}/static/res/common/js/static/respond.min.js"></script>
     <![endif]-->
-    <script src="${basePath}/res/common/js/jquery-2.1.1.min.js"></script>
-    <script src="${basePath}/res/common/js/zui.min.js"></script>
-    <script src="${basePath}/res/plugins/layer/layer.js"></script>
-    <script src="${basePath}/res/common/js/jquery.form.js"></script>
-    <script src="${basePath}/res/front/js/jeesns.js"></script>
-    <script src="${basePath}/res/common/js/extendPagination.js"></script>
-    <script src="${basePath}/res/front/js/weibo.js"></script>
-    <script src="${basePath}/res/plugins/emoji/js/underscore-min.js"></script>
-    <script src="${basePath}/res/plugins/emoji/js/editor.js"></script>
-    <script src="${basePath}/res/plugins/emoji/js/emojis.js"></script>
-    <script src="${basePath}/res/plugins/js-emoji/emoji.js"></script>
-    <script src="${basePath}/res/common/js/jquery.timeago.js"></script>
-    <script src="${basePath}/res/plugins/webuploader/webuploader.min.js"></script>
-    <script src="${basePath}/res/plugins/gallery/js/jquery.blueimp-gallery.min.js"></script>
-    <script src="${basePath}/res/plugins/webuploader/weiboUpload.js"></script>
+    <script src="${basePath}/static/res/common/js/jquery-2.1.1.min.js"></script>
+    <script src="${basePath}/static/res/common/js/zui.min.js"></script>
+    <script src="${basePath}/static/res/plugins/layer/layer.js"></script>
+    <script src="${basePath}/static/res/common/js/jquery.form.js"></script>
+    <script src="${basePath}/static/res/front/js/jeesns.js"></script>
+    <script src="${basePath}/static/res/common/js/extendPagination.js"></script>
+    <script src="${basePath}/static/res/front/js/weibo.js"></script>
+    <script src="${basePath}/static/res/plugins/emoji/js/underscore-min.js"></script>
+    <script src="${basePath}/static/res/plugins/emoji/js/editor.js"></script>
+    <script src="${basePath}/static/res/plugins/emoji/js/emojis.js"></script>
+    <script src="${basePath}/static/res/plugins/js-emoji/emoji.js"></script>
+    <script src="${basePath}/static/res/common/js/jquery.timeago.js"></script>
+    <script src="${basePath}/static/res/plugins/webuploader/webuploader.min.js"></script>
+    <script src="${basePath}/static/res/plugins/gallery/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="${basePath}/static/res/plugins/webuploader/weiboUpload.js"></script>
 </head>
 <body class="gray-bg">
-<#include "/${frontTemplate}/common/header.ftl"/>
+<#include "${frontTemplate}/common/header.ftl"/>
 <div class="container">
     <div class="main-content">
         <div class="row">
@@ -201,7 +201,7 @@
         </div>
     </div>
 </div>
-<#include "/${frontTemplate}/common/footer.ftl"/>
+<#include "${frontTemplate}/common/footer.ftl"/>
 <script type="text/javascript">
     $(function () {
         $(".pagination").jeesns_page("jeesnsPageForm");
@@ -217,7 +217,7 @@
             var weiboPictureArea = $(".weibo-picture-area");
             if (weiboPictureArea.is(':hidden')) {
                 weiboPictureArea.show();
-                $.getScript("${basePath}/res/plugins/webuploader/weiboUpload.js");
+                $.getScript("${basePath}/static/res/plugins/webuploader/weiboUpload.js");
             } else {
                 weiboPictureArea.hide();
             }

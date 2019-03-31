@@ -28,7 +28,7 @@
 </head>
 
 <body class="gray-bg">
-<#include "/${frontTemplate}/common/header.ftl"/>
+<#include "${frontTemplate}/common/header.ftl"/>
 <div class="picture-content">
     <div class="waterfull clearfloat" id="waterfull">
         <ul id="pictures">
@@ -61,7 +61,7 @@
         加载中.....
     </div>
 </div>
-<#include "/${frontTemplate}/common/footer.ftl"/>
+<#include "${frontTemplate}/common/footer.ftl"/>
 <script type="text/javascript">
     $(function(){
         picture.waterfull();

@@ -2,10 +2,10 @@ package com.sm.jeesns.core.interceptor;
 
 import com.sm.jeesns.common.utils.ConfigUtil;
 import com.sm.jeesns.common.utils.MemberUtil;
-import com.sm.jeesns.core.utils.SpringContextHolderUtil;
 import com.sm.jeesns.model.member.Member;
 import com.sm.jeesns.service.member.IMemberService;
 import org.json.JSONObject;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -16,6 +16,9 @@ import java.io.PrintWriter;
  * Created by zchuanzhao on 2016/11/25.
  */
 public class UserLoginInterceptor implements JeesnsInterceptor {
+
+    @Autowired
+    private IMemberService memberService;
 
     @Override
     public boolean interceptor(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception{
@@ -30,7 +33,7 @@ public class UserLoginInterceptor implements JeesnsInterceptor {
                 }
                 return false;
             }else {
-                IMemberService memberService = SpringContextHolderUtil.getBean("memberService");
+                //IMemberService memberService = SpringContextHolderUtil.getBean("memberService");
                 Member findMember = memberService.findById(loginUser.getId());
                 if(1 == Integer.parseInt((String) request.getServletContext().getAttribute(ConfigUtil.MEMBER_EMAIL_VALID.toUpperCase()))){
                     if(findMember.getIsActive() == 0){

@@ -2,9 +2,9 @@ package com.sm.jeesns.core.interceptor;
 
 import com.sm.jeesns.common.utils.MemberUtil;
 import com.sm.jeesns.core.utils.JeesnsConfig;
-import com.sm.jeesns.core.utils.SpringContextHolderUtil;
 import com.sm.jeesns.model.member.Member;
 import net.sf.json.JSONObject;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -14,6 +14,9 @@ import java.io.PrintWriter;
  * Created by zchuanzhao on 16/11/25.
  */
 public class AdminLoginInterceptor implements JeesnsInterceptor {
+
+    @Autowired
+    private JeesnsConfig jeesnsConfig;
 
     @Override
     public boolean interceptor(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
@@ -30,7 +33,7 @@ public class AdminLoginInterceptor implements JeesnsInterceptor {
                 out.flush();
                 out.close();
             }else {
-                JeesnsConfig jeesnsConfig = SpringContextHolderUtil.getBean("jeesnsConfig");
+               // JeesnsConfig jeesnsConfig = SpringContextHolderUtil.getBean("jeesnsConfig");
                 response.sendRedirect(request.getContextPath() + "/" + jeesnsConfig.getManagePath() + "/login");
             }
             return false;

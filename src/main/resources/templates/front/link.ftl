@@ -23,7 +23,7 @@
     <script src="${basePath}/static/res/common/js/extendPagination.js"></script>
 </head>
 <body class="gray-bg">
-<#include "/${frontTemplate}/common/header.ftl"/>
+<#include "${frontTemplate}/common/header.ftl"/>
 <div class="container">
     <div class="main-content m-t-10">
         <div class="row">

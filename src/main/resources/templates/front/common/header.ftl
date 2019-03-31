@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand jeesns-logo" href="${basePath}/"><img src="${basePath}${SITE_LOGO}" height="50px"/></a>
+            <a class="navbar-brand jeesns-logo" href="${basePath}/"><img src="${basePath}/static/res/manage/images/logo.png" height="50px"/></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">

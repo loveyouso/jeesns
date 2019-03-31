@@ -24,7 +24,7 @@
 </head>
 
 <body class="gray-bg">
-<#include "/index/common/header.ftl"/>
+<#include "${frontTemplate}/common/header.ftl"/>
 <div class="wrapper wrapper-content animated fadeInRight">
     <div class="container">
         <div class="row">

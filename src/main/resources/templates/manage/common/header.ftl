@@ -16,7 +16,7 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li class="user-header">
-                            <img src="${basePath}${loginUser.avatar}" class="img-circle" alt="User Image">
+                            <img src="${basePath}/static/${loginUser.avatar}" class="img-circle" alt="User Image">
                             <p>
                                 ${loginUser.name}
                                 <small>${loginUser.email}</small>
@@ -49,18 +49,18 @@
         </div>
         <ul class="sidebar-menu">
             <li class="header">功能模块</li>
-            <li><a href="${managePath}/index"><i class="fa fa-dashboard"></i> <span>后台主页</span></a></li>
+            <li><a href="/manage/index"><i class="fa fa-dashboard"></i> <span>后台主页</span></a></li>
             <li class="treeview" module="system">
                 <a href="#">
                     <i class="fa fa-cog"></i> <span>系统设置</span>
                     <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="${managePath}/system/config/edit" module="system"><i class="fa fa-circle-o"></i>系统设置</a></li>
-                    <li><a href="${managePath}/system/scoreRule/list" module="system"><i class="fa fa-circle-o"></i>积分规则</a></li>
-                    <li><a href="${managePath}/system/action/list" module="system"><i class="fa fa-circle-o"></i>动态类型</a></li>
-                    <li><a href="${managePath}/system/action/actionLogList" module="system"><i class="fa fa-circle-o"></i>会员日志</a></li>
-                    <li><a href="${managePath}/system/action/memberActionLog" module="system"><i class="fa fa-circle-o"></i>会员动态</a></li>
+                    <li><a href="/manage/system/config/edit" module="system"><i class="fa fa-circle-o"></i>系统设置</a></li>
+                    <li><a href="/manage/system/scoreRule/list" module="system"><i class="fa fa-circle-o"></i>积分规则</a></li>
+                    <li><a href="/manage/system/action/list" module="system"><i class="fa fa-circle-o"></i>动态类型</a></li>
+                    <li><a href="/manage/system/action/actionLogList" module="system"><i class="fa fa-circle-o"></i>会员日志</a></li>
+                    <li><a href="/manage/system/action/memberActionLog" module="system"><i class="fa fa-circle-o"></i>会员动态</a></li>
                 </ul>
             </li>
             <li class="treeview" module="cms">
@@ -69,8 +69,8 @@
                     <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="${managePath}/cms/articleCate/list" module="cms"><i class="fa fa-circle-o"></i>栏目管理</a></li>
-                    <li><a href="${managePath}/cms/index" module="cms"><i class="fa fa-circle-o"></i>文章管理</a></li>
+                    <li><a href="/manage/cms/articleCate/list" module="cms"><i class="fa fa-circle-o"></i>栏目管理</a></li>
+                    <li><a href="/manage/cms/index" module="cms"><i class="fa fa-circle-o"></i>文章管理</a></li>
                 </ul>
             </li>
             <li class="treeview" module="member">
@@ -79,8 +79,8 @@
                     <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="${managePath}/member/index" module="member"><i class="fa fa-circle-o"></i>会员列表</a></li>
-                    <li><a href="${managePath}/member/managerList" module="member"><i class="fa fa-circle-o"></i>管理员列表</a></li>
+                    <li><a href="/manage/member/index" module="member"><i class="fa fa-circle-o"></i>会员列表</a></li>
+                    <li><a href="/manage/member/managerList" module="member"><i class="fa fa-circle-o"></i>管理员列表</a></li>
                 </ul>
             </li>
             <li class="treeview" module="group">
@@ -89,8 +89,8 @@
                     <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="${managePath}/group/type/list" module="group"><i class="fa fa-circle-o"></i>分类管理</a></li>
-                    <li><a href="${managePath}/group/index" module="group"><i class="fa fa-circle-o"></i>群组列表</a></li>
+                    <li><a href="/manage/group/type/list" module="group"><i class="fa fa-circle-o"></i>分类管理</a></li>
+                    <li><a href="/manage/group/index" module="group"><i class="fa fa-circle-o"></i>群组列表</a></li>
                 </ul>
             </li>
             <li class="treeview" module="weibo">
@@ -99,7 +99,7 @@
                     <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="${managePath}/weibo/index" module="weibo"><i class="fa fa-circle-o"></i>微博列表</a></li>
+                    <li><a href="/manage/weibo/index" module="weibo"><i class="fa fa-circle-o"></i>微博列表</a></li>
                 </ul>
             </li>
             <li class="treeview" module="picture">
@@ -108,8 +108,8 @@
                     <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="${managePath}/tag/list/7" module="picture"><i class="fa fa-circle-o"></i>标签管理</a></li>
-                    <li><a href="${managePath}/picture/list" module="picture"><i class="fa fa-circle-o"></i>图片管理</a></li>
+                    <li><a href="/manage/tag/list/7" module="picture"><i class="fa fa-circle-o"></i>标签管理</a></li>
+                    <li><a href="/manage/picture/list" module="picture"><i class="fa fa-circle-o"></i>图片管理</a></li>
                 </ul>
             </li>
             <li class="treeview" module="common">
@@ -118,8 +118,8 @@
                     <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="${managePath}/ads/list" module="common"><i class="fa fa-circle-o"></i>广告管理</a></li>
-                    <li><a href="${managePath}/link/list" module="common"><i class="fa fa-circle-o"></i>友情链接</a></li>
+                    <li><a href="/manage/ads/list" module="common"><i class="fa fa-circle-o"></i>广告管理</a></li>
+                    <li><a href="/manage/link/list" module="common"><i class="fa fa-circle-o"></i>友情链接</a></li>
                 </ul>
             </li>
         </ul>
